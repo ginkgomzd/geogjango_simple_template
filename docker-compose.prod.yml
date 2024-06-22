@@ -3,7 +3,7 @@ services:
 
   webserver_python:
     container_name: geodjango_webserver_prod
-    image: geogjango_webserver_prod
+    image: ginkgomzd/geogjango_webserver_prod
     build:
       context: .
       dockerfile: docker/Dockerfile.prod
